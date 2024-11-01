@@ -1,0 +1,5 @@
+ npm i cors dotenv express openai
+
+front:
+npx create-react-app gpt-front
+ 

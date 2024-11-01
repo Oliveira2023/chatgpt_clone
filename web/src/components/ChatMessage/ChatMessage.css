@@ -1,0 +1,39 @@
+.chat-message {
+    padding: 5px;
+    margin: 5px;
+}
+.chat-message.chatgpt {
+    background-color: #444654;
+}
+.chat-message-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    /* background-color: rgb(53, 108, 108); */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+
+}
+.message {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.me {
+    background-color: #0da37f;
+    color: white;
+    border-radius: 50%;
+    /* padding: 5px; */
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-message-content {
+    font-size: 1.5rem;
+}
